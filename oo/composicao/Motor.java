@@ -2,7 +2,7 @@ package oo.composicao;
 
 public class Motor {
 	
-	Carro carro;
+	final Carro carro;
 	
 	Motor(Carro carro){
 		this.carro=carro;
