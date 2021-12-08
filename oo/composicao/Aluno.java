@@ -23,7 +23,7 @@ final	ArrayList<Curso> cursos = new ArrayList<>();
 	}
 	
 	Curso obterCursoPorNome(String nome) {
-		
+		//o this aqui é reduntante?
 		for(Curso curso : cursos) {
 			if(curso.nome.equalsIgnoreCase(nome)){
 				return curso;
