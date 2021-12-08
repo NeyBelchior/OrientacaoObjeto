@@ -10,6 +10,7 @@ public class ClienteTeste {
 		Compra comp2 =new Compra();
 		
 		comp1.adicionarItem(p1, 10);
+		comp1.adicionarItem(p2, 50);
 		comp2.adicionarItem(p2, 20);
 		
 		
