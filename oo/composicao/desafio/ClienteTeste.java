@@ -18,19 +18,10 @@ public class ClienteTeste {
 		
 		
 	System.out.println(c1.compras.size());
-     double total = 0;
-     
-	for(Compra compras : c1.compras) {
-		System.out.printf("Valores da %d compra  ",c1.compras.indexOf(compras)+1);
-		System.out.println();
-		for(int i=0;i<=compras.itens.size()-1;i++) {
-		System.out.println(compras.itens.get(i).getProdutoNome());
-		System.out.println(compras.itens.get(i).retornaPrecoProduto());	
-		double fator=compras.itens.get(i).retornaPrecoProduto();
-		total+=fator;
-		}
+
+   
 		
-		System.out.println(total);
+	System.out.println(c1.retornaValorTotal());
 		
 	}
 			
@@ -39,6 +30,6 @@ public class ClienteTeste {
 		}
 		
 
-	}
+
 
 
