@@ -1,12 +1,24 @@
 package oo.herancaexercicios.Desafio;
 
 public class Carro {
-	
+	//ou é iniciada diretamente na criação ou no mais tardar na criação do objeto
+	final int VELOCIDADE_MAXIMA;
 	double velocidadeAtual=1;
-	int fatorDeAceleracao=2;
+    int delta =5;
+	
+	Carro(int velocidadeMaxima){
+		
+		VELOCIDADE_MAXIMA=velocidadeMaxima;
+	}
 	
 	void acelerar () {
-		velocidadeAtual+=5;
+		if(velocidadeAtual+delta<VELOCIDADE_MAXIMA) {
+			
+			    velocidadeAtual=VELOCIDADE_MAXIMA;
+		
+		}else {
+			velocidadeAtual+=delta;
+		}
 		
 		
 	}
