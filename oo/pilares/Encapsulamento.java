@@ -12,9 +12,9 @@ public class Encapsulamento {
 	
 	Quanto mais escondido for menor a chance de ter problema entre a relação das coisas
 	
-
+public protect package private
 	
-	
+	*/
 	
 	
 
