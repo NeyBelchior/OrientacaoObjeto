@@ -7,6 +7,6 @@ public class Civic extends Carro{
 		 
 		  super(270);
 		  
-		  delta=15;
+		  setDelta(15);
 	  }
 }
