@@ -11,18 +11,11 @@ public class Pessoa {
 		return peso;
 	}
 	
-	public void comer(Arroz arroz) {
+	public void comer(Comida comida) {
 	
-		this.peso+=arroz.getPeso();
+		this.peso+=comida.getPeso();
 	}
-	public void comer(Feijao feijao) {
-		
-		this.peso+=feijao.getPeso();
-	}
-	public void comer(Sorvete sorvete) {
-		
-		this.peso+=sorvete.getPeso();
-	}
+	
 
 	public void setPeso(double peso) {
 		if(peso>=0) {
