@@ -26,7 +26,7 @@ public class InterfacesFuncionaisTeoriaResumo {
 	 * Double >double pode =) o java chama de boxing (quando um primitivo vai dentro de uma clase) unboxing(quando um classe vai dentro de um primitivo)
 	 *Somente para tipos do mesmo tipo  , esse processo automático é chamado de autoboxing
 	 *
-	 *Por isso as vezes é melhor usar uma interface, por exemplo:
+	 *Por isso as vezes é melhor usar uma interface, por exemplok:
 	 *intBinaryOperator
 	 *longBinaryOperator
 	 *
