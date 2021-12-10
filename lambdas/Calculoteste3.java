@@ -1,6 +1,6 @@
 package lambdas;
 
-public class Calculoteste2 {
+public class Calculoteste3 {
 	public static void main(String[] args) {
 		
 	
