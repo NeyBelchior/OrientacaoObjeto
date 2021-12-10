@@ -8,16 +8,18 @@ public class TesteCarro {
 
 	public static void main(String[] args) {
 		
-		Carro ferrari=new Ferrari();
+		Ferrari ferrari=new Ferrari();
 		Carro civic =new Civic();
+		System.out.println(ferrari.VELOCIDADE_MAXIMA);
 		
 		System.out.println(ferrari.velocidadeAtual);
 		System.out.println(civic.velocidadeAtual);
-		
+		ferrari.ligarTurbo();
 		ferrari.acelerar();
 		civic.acelerar();
 		System.out.println(ferrari);
 		System.out.println(civic);
+		
 		
 	
 		
