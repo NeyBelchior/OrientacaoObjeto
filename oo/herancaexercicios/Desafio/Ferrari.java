@@ -2,17 +2,17 @@ package oo.herancaexercicios.Desafio;
 
 public class Ferrari extends Carro{
 	
-   static final int VELOCIDADE_MAXIMA=300;
+   
 	
 	
-	Ferrari(){
-		super(VELOCIDADE_MAXIMA);
+	public Ferrari(){
+		super(300);
 	
 		}
 	
-	
+	//quando você sobrescreve um método o java só permite que você matenha a mesma visibilidade ou aumente a visibilidade
 	@Override
-	void acelerar() {
+public void acelerar() {
 		velocidadeAtual+=15;
 		
 	}	

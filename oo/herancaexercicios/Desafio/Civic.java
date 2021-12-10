@@ -1,10 +1,12 @@
 package oo.herancaexercicios.Desafio;
 
 public class Civic extends Carro{
-	  static final int VELOCIDADE_MAXIMA=200;
-	  
-	  Civic(){
-		  super(VELOCIDADE_MAXIMA);
+	
+	
+	 public Civic(){
+		 
+		  super(270);
+		  
 		  delta=15;
 	  }
 }
