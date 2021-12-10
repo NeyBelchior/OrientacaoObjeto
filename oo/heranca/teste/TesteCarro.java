@@ -19,6 +19,7 @@ public class TesteCarro {
 		civic.acelerar();
 		System.out.println(ferrari);
 		System.out.println(civic);
+		System.out.println(ferrari.velocidadeDoAr());
 		
 		
 	
