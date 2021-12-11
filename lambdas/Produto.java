@@ -3,8 +3,8 @@ package lambdas;
 public class Produto {
 	
 	final String nome;
-	final double preco;
-	final double desconto;
+	public final Double preco;
+	public final Double desconto;
 	
 	public Produto(String nome, double preco, double desconto) {
 		
