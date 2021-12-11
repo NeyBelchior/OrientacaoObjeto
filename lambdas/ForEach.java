@@ -27,6 +27,8 @@ public class ForEach {
 		
 		System.out.println("\nMethod Reference#02...");
 		aprovados.forEach(ForEach::meuImprimir);
+		
+		
 	
 	
 	}
