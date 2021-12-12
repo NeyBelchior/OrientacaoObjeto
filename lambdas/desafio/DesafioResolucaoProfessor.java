@@ -1,5 +1,6 @@
 package lambdas.desafio;
 
+import java.util.Locale;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
@@ -23,7 +24,7 @@ public class DesafioResolucaoProfessor {
 	    preco-> preco>= 3000 ? preco+100 : preco+50;
        
 	    UnaryOperator<Double>arredondar=
-	    preco ->Double.parseDouble(String.format("%2f", preco));
+	    preco ->Double.parseDouble(String.format(Locale.ENGLISH, "%.2f", preco));
         
 	    Function<Double, String>formatar=
 	    preco ->("R$" +preco).replace(".", ",");		
