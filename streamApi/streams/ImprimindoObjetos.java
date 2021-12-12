@@ -32,10 +32,11 @@ public class ImprimindoObjetos {
 	  }
 	  //Um conjunto de objeto com a característica, é que a iteração ocorre de forma interna e outras também sem a necessidade de explicitar
 	 //stream é uma sequencia de dados, que pode ser do tipo produto do tipo string e etc , definido apartir do gernerics
+	 
 	  System.out.println("\nUsando Stream...");
 	 Stream<String> stream =aprovados.stream();
-	 stream.forEach(System.out::println);
-	 
+	 stream.forEach(System.out::println);//Laço interno!! Parte do trabalho que era para eu está fazendo (aquele trabalho repetitivo) passa a ficar interno dentro da linguagem é um principio muito usado na programação funional
+	                                     //Ou seja , parte dos problemas já é nativamente resolvido pela linguagem.
 	 
 	  
 	
