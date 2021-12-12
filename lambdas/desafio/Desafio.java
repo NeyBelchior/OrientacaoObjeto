@@ -23,7 +23,7 @@ public class Desafio {
 			(PrecoDoProduto,DescontoDoProduto) ->PrecoDoProduto*(1-DescontoDoProduto);
 				
 	Function<Double,Double> impostoMunicipal =
-			 (valorPassado)->valorPassado>=2500 ?  valorPassado*(1-0.85):valorPassado;		
+			 (valorPassado)->valorPassado>=2500 ?  valorPassado*1.85:valorPassado;		
 	
 	Function<Double,Double> acrescentaFrete =
 				(valorPassado)->valorPassado>3000 ?  valorPassado+100:valorPassado+50;
@@ -35,6 +35,7 @@ public class Desafio {
 						(valorPassado)->"R$ "+valorPassado;
 		 
 	String alo =precoReal.andThen(impostoMunicipal).andThen(acrescentaFrete).andThen(arredondarValor).andThen(formatarTexto).apply(p.preco,p.desconto);
+	
 	System.out.println(alo);
 			
 			 
