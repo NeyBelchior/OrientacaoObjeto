@@ -20,13 +20,13 @@ public class DesafioMap {
 		
 		List<Integer> nums =  Arrays.asList(1,2,3,4,5,6,7,8,9);
 		
-		Consumer<? super Integer> print = System.out::println;
+		Consumer<Integer> print = System.out::println;
 		
 		
 		nums.stream()
 		.map(n -> Integer.toBinaryString(n))
 		.map(n ->Utilitarios.stringReversa(n))
-		.map(n,y) ->Integer.parseUnsignedInt(n, 2))
+		.map(n ->Integer.parseUnsignedInt(n, 2))
 		.forEach(print);
 		
 		
