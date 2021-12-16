@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Aluno {
 	
 	public final String nome;
-	final Double nota;
+	public final Double nota;
 	
 	
 	
